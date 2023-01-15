@@ -7,9 +7,11 @@ public class ThirdPersonFMOD : MonoBehaviour
 {
     public EventReference stepSfx;
 
-    public void Step() {
+    public void Step(AnimationEvent evt) {
 
-        RuntimeManager.PlayOneShot(stepSfx, transform.position);
+        if (evt.animatorClipInfo.weight > 0.5f) {
+
+            RuntimeManager.PlayOneShot(stepSfx, transform.position);
+        }
     }
-
 }

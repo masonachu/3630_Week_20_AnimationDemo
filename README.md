@@ -10,3 +10,8 @@ The branches are as follows:
  `main` - the same as `clean-branch`.\
  `clean-branch` - a branch with a completed FMOD session, but no implementation hooks.\
  `complete` - a branch with a completed FMOD session and implementation hooks.
+ 
+ The FMOD Session File for this project can be found in `Assets/FMOD/3630_Week_20_AnimationDemo/3630_Week_20_AnimationDemo.fspro`
+ The Unity Scene Files for this project can be found in \
+ Third-Person Movement: `Assets/Scene/ThirdPerson_Demo.unity` \
+ First Person Movement: `Assets/Scene/FirstPerson_Demo.unity`

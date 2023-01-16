@@ -2,7 +2,7 @@
  
 This repository is a completed demo in attaching audio to a third-person animated character, and a first-person character prefab. This repository requires the following softwares: 
 
-**Unity v.2021.3.11f1** - https://unity.com/releases/editor/whats-new/2021.3.11
+**Unity v.2021.3.11f1** - https://unity.com/releases/editor/whats-new/2021.3.11 \
 **FMOD 2.02.05** - https://www.fmod.com/download#fmodstudio
 
 The branches are as follows:

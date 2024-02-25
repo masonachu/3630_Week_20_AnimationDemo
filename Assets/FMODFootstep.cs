@@ -5,14 +5,14 @@ using FMODUnity;
 
 public class FMODFootstep : MonoBehaviour
 {
-    public EventReference eventReference;
+    public AK.Wwise.Event eventReference;
 
 
     public void Step(AnimationEvent evt) {
 
-        if(evt.animatorClipInfo.weight > 0.5f) {        
+        if(evt.animatorClipInfo.weight > 0.5f) {
 
-            RuntimeManager.PlayOneShot(eventReference, transform.position);
+            eventReference.Post(gameObject);
         }
     }
 }

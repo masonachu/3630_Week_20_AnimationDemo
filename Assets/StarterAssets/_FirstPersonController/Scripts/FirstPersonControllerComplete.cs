@@ -77,7 +77,8 @@ namespace StarterAssets
 		private float _fallTimeoutDelta;
 
 		// step timer
-		[SerializeField] private float footstepTimer;
+		[SerializeField] private float walkTimer;
+		[SerializeField] private float sprintTimer;
 		private bool isWalking;
         #endregion
 
@@ -268,7 +269,12 @@ namespace StarterAssets
 
 		private void PlayFootstepSound() {
 
-			StartCoroutine(PlayStepSound(footstepTimer));
+			if(_input.sprint) {
+				// if sprint is active do this
+				StartCoroutine(PlayStepSound(sprintTimer));
+			} else {
+                StartCoroutine(PlayStepSound(walkTimer));
+            }
         }
 
 		IEnumerator PlayStepSound(float timer) {

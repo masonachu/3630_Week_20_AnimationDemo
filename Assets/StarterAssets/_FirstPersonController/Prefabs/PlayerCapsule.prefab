@@ -386,3 +386,4 @@ MonoBehaviour:
       Data4: 549766656
     Path: event:/sfx_footstep
   footstepTimer: 0.7
+  sprintTimer: 0.4

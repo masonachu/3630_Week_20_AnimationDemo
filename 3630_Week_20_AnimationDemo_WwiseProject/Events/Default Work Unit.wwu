@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FA0E3B4-366F-4407-A0BE-11E321C35973}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1FA0E3B4-366F-4407-A0BE-11E321C35973}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{513E2AEE-1C4D-4680-BD39-EC9DE5548AC9}">
+					<ChildrenList>
+						<Action Name="" ID="{098259F2-7882-4AC1-A5B7-DDC690B59C8E}" ShortID="334766324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{F5FDD662-F957-4931-A18E-89DD1D73E896}" WorkUnitID="{E68546E4-B739-4A64-B9C2-6522ED463CC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{95993AF4-A146-43FB-A9CF-4D1640C6C2BE}" ShortID="590033920">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Foley" ID="{8C8AAA94-7F85-4DAD-8C9E-4A1D1DE9B036}" WorkUnitID="{E68546E4-B739-4A64-B9C2-6522ED463CC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

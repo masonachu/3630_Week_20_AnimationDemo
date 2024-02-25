@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E68546E4-B739-4A64-B9C2-6522ED463CC2}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E68546E4-B739-4A64-B9C2-6522ED463CC2}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Foley" ID="{8C8AAA94-7F85-4DAD-8C9E-4A1D1DE9B036}" ShortID="135645206">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="532057-jacket-leather-foley-movement-006 - Trimmed" ID="{293B6C04-EF91-47E6-A60E-8A5F181278DA}" ShortID="636583242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532057-jacket-leather-foley-movement-006 - Trimmed" ID="{7DBA3F31-8400-434F-BC44-C80F428F7D2B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.664987695179906"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>532057-jacket-leather-foley-movement-006 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="21660013"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532057-jacket-leather-foley-movement-006 - Trimmed" ID="{7DBA3F31-8400-434F-BC44-C80F428F7D2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532057-jacket-leather-foley-movement-007 - Trimmed" ID="{11E2D109-3193-4E5E-8C4F-130DC5B1BFCD}" ShortID="28278385">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532057-jacket-leather-foley-movement-007 - Trimmed" ID="{0AEADF2E-BB48-40CA-A867-E5030DD5A1C4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.650124108961303"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>532057-jacket-leather-foley-movement-007 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158865750"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532057-jacket-leather-foley-movement-007 - Trimmed" ID="{0AEADF2E-BB48-40CA-A867-E5030DD5A1C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532058-jacket-leather-foley-movement-007 - Trimmed" ID="{3B785020-FAE7-4727-96ED-5CBCF49F9CF2}" ShortID="432488539">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532058-jacket-leather-foley-movement-007 - Trimmed" ID="{1C8DBC01-646D-4E90-8A92-F5CBDE70F91E}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.281460030549898"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>532058-jacket-leather-foley-movement-007 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="755599666"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532058-jacket-leather-foley-movement-007 - Trimmed" ID="{1C8DBC01-646D-4E90-8A92-F5CBDE70F91E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532058-jacket-leather-foley-movement-008 - Trimmed" ID="{419E3325-37F7-4A4C-B5DF-17DF1395DEE7}" ShortID="847604185">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532058-jacket-leather-foley-movement-008 - Trimmed" ID="{7251FF20-8599-4F89-9107-55012CDB73A6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.360094577393075"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>532058-jacket-leather-foley-movement-008 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="999736331"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532058-jacket-leather-foley-movement-008 - Trimmed" ID="{7251FF20-8599-4F89-9107-55012CDB73A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532058-jacket-leather-foley-movement-009 - Trimmed" ID="{4FEBC847-70DC-4757-ACAD-FA36F5E5A050}" ShortID="838752670">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532058-jacket-leather-foley-movement-009 - Trimmed" ID="{2BDB9709-C78D-4FE2-A9A8-3719B7654F60}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.39376132892057"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>532058-jacket-leather-foley-movement-009 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350279199"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532058-jacket-leather-foley-movement-009 - Trimmed" ID="{2BDB9709-C78D-4FE2-A9A8-3719B7654F60}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532058-jacket-leather-foley-movement-010 - Trimmed" ID="{ADE329EF-92A5-4B22-9097-3FED7AB815C8}" ShortID="95817827">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532058-jacket-leather-foley-movement-010 - Trimmed" ID="{D64929CB-269A-4268-9857-6D90B4AD0333}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.354649652070604"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>532058-jacket-leather-foley-movement-010 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="227102511"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532058-jacket-leather-foley-movement-010 - Trimmed" ID="{D64929CB-269A-4268-9857-6D90B4AD0333}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Footstep" ID="{F5FDD662-F957-4931-A18E-89DD1D73E896}" ShortID="467248975">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="532831-Slipper_Footsteps_Concrete_Walk-02 - Trimmed" ID="{D3F37C9F-50DE-4002-8D76-4DA624A10434}" ShortID="758750608">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532831-Slipper_Footsteps_Concrete_Walk-02 - Trimmed" ID="{CF677742-D8F2-4481-BDD2-E1ECAFA290F5}">
+									<Language>SFX</Language>
+									<AudioFile>532831-Slipper_Footsteps_Concrete_Walk-02 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="589645188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532831-Slipper_Footsteps_Concrete_Walk-02 - Trimmed" ID="{CF677742-D8F2-4481-BDD2-E1ECAFA290F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532831-Slipper_Footsteps_Concrete_Walk-05 - Trimmed" ID="{F9C6BED8-136B-4403-8C55-96DDCF7BB063}" ShortID="298577799">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532831-Slipper_Footsteps_Concrete_Walk-05 - Trimmed" ID="{5B76E6B5-A9B6-4235-A248-3FD2D5207768}">
+									<Language>SFX</Language>
+									<AudioFile>532831-Slipper_Footsteps_Concrete_Walk-05 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="113466791"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532831-Slipper_Footsteps_Concrete_Walk-05 - Trimmed" ID="{5B76E6B5-A9B6-4235-A248-3FD2D5207768}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532831-Slipper_Footsteps_Concrete_Walk-06 - Trimmed" ID="{DF01EDFC-A1C5-4F40-9EF7-24AC2040712F}" ShortID="1019191110">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532831-Slipper_Footsteps_Concrete_Walk-06 - Trimmed" ID="{35DC84DC-9BE6-4373-AE97-896D59BBBFBD}">
+									<Language>SFX</Language>
+									<AudioFile>532831-Slipper_Footsteps_Concrete_Walk-06 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="213742621"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532831-Slipper_Footsteps_Concrete_Walk-06 - Trimmed" ID="{35DC84DC-9BE6-4373-AE97-896D59BBBFBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="532831-Slipper_Footsteps_Concrete_Walk-07 - Trimmed" ID="{DC22DACC-51E0-4763-A861-E54F720EE1A9}" ShortID="867032022">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CABC984B-F328-42BD-A9C1-D5121DDC11B2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AF95B7B1-4B38-483B-8C3A-193289F1102E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="532831-Slipper_Footsteps_Concrete_Walk-07 - Trimmed" ID="{913EF6BE-9417-4574-94BC-750C5F576DBE}">
+									<Language>SFX</Language>
+									<AudioFile>532831-Slipper_Footsteps_Concrete_Walk-07 - Trimmed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815054624"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="532831-Slipper_Footsteps_Concrete_Walk-07 - Trimmed" ID="{913EF6BE-9417-4574-94BC-750C5F576DBE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6136C8F7-44D4-F687-88B2-E32B8C489286}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="21660013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532057-jacket-leather-foley-movement-006 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532057-jacket-leather-foley-movement-006 - Trimmed_D91A2DB5.wem</CachePath>
+				</File>
+				<File Id="113466791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532831-Slipper_Footsteps_Concrete_Walk-05 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532831-Slipper_Footsteps_Concrete_Walk-05 - Trimmed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="158865750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532057-jacket-leather-foley-movement-007 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532057-jacket-leather-foley-movement-007 - Trimmed_5C0F601C.wem</CachePath>
+				</File>
+				<File Id="213742621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532831-Slipper_Footsteps_Concrete_Walk-06 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532831-Slipper_Footsteps_Concrete_Walk-06 - Trimmed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="227102511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532058-jacket-leather-foley-movement-010 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532058-jacket-leather-foley-movement-010 - Trimmed_FA273416.wem</CachePath>
+				</File>
+				<File Id="350279199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532058-jacket-leather-foley-movement-009 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532058-jacket-leather-foley-movement-009 - Trimmed_8F9A7B80.wem</CachePath>
+				</File>
+				<File Id="589645188" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532831-Slipper_Footsteps_Concrete_Walk-02 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532831-Slipper_Footsteps_Concrete_Walk-02 - Trimmed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="755599666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532058-jacket-leather-foley-movement-007 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532058-jacket-leather-foley-movement-007 - Trimmed_50537E4E.wem</CachePath>
+				</File>
+				<File Id="815054624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532831-Slipper_Footsteps_Concrete_Walk-07 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532831-Slipper_Footsteps_Concrete_Walk-07 - Trimmed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="999736331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>532058-jacket-leather-foley-movement-008 - Trimmed.wav</ShortName>
+					<CachePath>SFX/532058-jacket-leather-foley-movement-008 - Trimmed_C000B618.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1602358412" Name="Play_Footstep" DurationType="OneShot" DurationMin="0.3448229" DurationMax="0.7109375">
+					<MediaRefs>
+						<MediaRef Id="21660013"/>
+						<MediaRef Id="113466791"/>
+						<MediaRef Id="158865750"/>
+						<MediaRef Id="213742621"/>
+						<MediaRef Id="227102511"/>
+						<MediaRef Id="350279199"/>
+						<MediaRef Id="589645188"/>
+						<MediaRef Id="755599666"/>
+						<MediaRef Id="815054624"/>
+						<MediaRef Id="999736331"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{919CEB9A-901A-0E08-D90A-6961F32B70CA}</FileHash>
+</SoundBanksInfo>

@@ -379,11 +379,8 @@ MonoBehaviour:
   TopClamp: 90
   BottomClamp: -90
   stepSfx:
-    Guid:
-      Data1: 1239638936
-      Data2: 1238144679
-      Data3: -1247107696
-      Data4: 549766656
-    Path: event:/sfx_footstep
-  footstepTimer: 0.7
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d4a0cb0f8de1b2a41afd117b1a3eea58, type: 2}
+  walkTimer: 0.7
   sprintTimer: 0.4

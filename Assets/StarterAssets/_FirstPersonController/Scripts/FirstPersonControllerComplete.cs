@@ -59,7 +59,7 @@ namespace StarterAssets
 
 		[Space(10)]
 		[Header("FMOD Audio")]
-		public EventReference stepSfx;
+		public AK.Wwise.Event stepSfx;
         #endregion
 
         #region Variables - Private
@@ -281,7 +281,8 @@ namespace StarterAssets
 
 			isWalking = true;
 
-			RuntimeManager.PlayOneShot(stepSfx, transform.position);
+			stepSfx.Post(gameObject);
+			//RuntimeManager.PlayOneShot(stepSfx, transform.position);
 			yield return new WaitForSeconds(timer);
 
 			isWalking = false;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{34c98c6d-8d7d-46ee-87c7-ec466edc1268}">
+		<property name="assetPath">
+			<value>ambience/AMBPubl_Area Graveyard-Loop 01_AKB00M_Ambience Fantasy.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>60</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{460fab20-fb0e-4d6e-b829-6f398b936232}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{ead0ee5a-d128-40f6-aea0-fb55339244c1}">
+		<property name="assetPath">
+			<value>ambience/oneshots/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{460fab20-fb0e-4d6e-b829-6f398b936232}</destination>
+		</relationship>
+	</object>
+</objects>

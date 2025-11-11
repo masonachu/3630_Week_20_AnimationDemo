@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7a1a1c4f-69f7-43c4-877d-712279b2d8bb}">
+		<property name="assetPath">
+			<value>ambience/oneshots/A_AMB_Trees_Rustle_nl_03.WAV</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9213333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{460fab20-fb0e-4d6e-b829-6f398b936232}</destination>
+		</relationship>
+	</object>
+</objects>
